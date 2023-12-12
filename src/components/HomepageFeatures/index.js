@@ -50,7 +50,7 @@ function Feature({Svg, title, description, link}) {
     
     <div className={clsx('col col--3')}>
       <div className="text--center">
-        <a href={link}>
+        <a rel="nofollow" href={link}>
           <Svg className={styles.featureSvg}  role="img" />
         </a>
       </div>
